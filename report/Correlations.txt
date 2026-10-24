@@ -1,0 +1,5 @@
+             All_day  Daytime(6am-7pm)  Near_noon(11am-1pm)
+Temperature     0.73              0.67                 0.58
+Humidity       -0.23             -0.35                -0.52
+Pressure        0.12              0.23                 0.27
+Speed           0.07              0.11                 0.07
