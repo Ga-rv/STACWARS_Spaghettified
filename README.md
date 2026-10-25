@@ -1,4 +1,4 @@
-# The Spaghettified Team has solved problem statements 1, 2 and 3.
+# The Spaghettified Team has solved problem statements 1, 2 and 3 and also a bonus software for STAC Club
 
 `Solutions to Stac Wars`
 This github repo contains three folders, each being solutions to their respective problem statements.
@@ -65,3 +65,7 @@ The folder corresponding to astronomy ps analyses the telescope brightness obser
 
 - Habitability Comparison: Compare orbital distances with the simplified habitable-zone distances derived from stellar luminosities.
 
+
+# Bonus idea
+
+The idea for a software is included in the `bonus_software.txt` file in the root folder
