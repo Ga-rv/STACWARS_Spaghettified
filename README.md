@@ -12,10 +12,9 @@ Design a two-stage sounding rocket in OpenRocket for the fictional planet **Must
 ## What we built
 A three-section, all-**cardboard** rocket (ogive nose cone):
 
-| Section   | Role                     | Motor                 | Fins | Recovery                               |
-| Payload   | Carries the 1 kg payload | none                  |   –  | drogue at apogee, main parachute later |
-| Sustainer | Upper-stage propulsion   | AeroTech J415W        |   5  | drogue at apogee, main parachute later |
-| Booster   | First-stage propulsion   | Cesaroni 1195J295-16A |   3  | drogue at apogee, main parachute later |
+Payload section: carries the 1 kg payload. No motor. Drogue at apogee, main parachute later.
+Sustainer: upper-stage propulsion. AeroTech J415W, 5 fins. Drogue at apogee, main parachute later.
+Booster: first-stage propulsion. Cesaroni 1195J295-16A, 3 fins. Drogue at apogee, main parachute later.
 
 Liftoff mass is 4.309 kg including motors. All results are from OpenRocket **Simulation 6** (Mustafar, 10 m/s wind at 270°). The full design reasoning, results and Earth-vs-Mustafar comparison are in the report.
 
