@@ -1,0 +1,12 @@
+{
+  "id": "mustafar",
+  "name": "Mustafar",
+  "description": "Hello",
+  "gravity": 6.5,
+  "surfacePressure": 75000,
+  "surfaceTemperature": 700,
+  "atmosphericDensity": 0.374,
+  "windVelocity": 10.0,
+  "windDirection": 270.0,
+  "launchSiteAltitude": 0.0
+}

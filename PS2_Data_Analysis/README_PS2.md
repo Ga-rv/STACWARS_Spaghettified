@@ -74,11 +74,12 @@ The notebooks use Python and the following main packages:
 
 Install the packages in the Python environment you intend to use. For example:
 
+A `requirements.txt` file is included in this folder. Install all the required packages in a Python virtual environment by running :
 ```bash
-python -m pip install pandas numpy matplotlib seaborn jupyter
-```
-
-A `requirements.txt` file is included in this folder. If you use it, check that it is compatible with your Python environment before installing all listed packages; the notebooks only require the main packages listed above.
+cd STACWARS_Spaghettified/PS2_Data_Analysis
+python -m venv .venv #creating virtual environment
+.venv\scripts\activate #activation on windows or try .venv/bin/activate for macos/linux
+pip install -r requirements.txt
 
 ## How to run
 
