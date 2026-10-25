@@ -4,14 +4,40 @@
 This github repo contains three folders, each being solutions to their respective problem statements.
 Each folder contains a report that briefly explains all findings, work, calculations and analysis of the problems given.
 
-# PS 1:
+# PS1 – OpenRocket:
+
+Design a two-stage sounding rocket in OpenRocket for the fictional planet **Mustafar** that:
 
 
+## What we built
+A three-section, all-**cardboard** rocket (ogive nose cone):
 
-# PS 2:
+| Section   | Role                     | Motor                 | Fins | Recovery                               |
+| Payload   | Carries the 1 kg payload | none                  |   –  | drogue at apogee, main parachute later |
+| Sustainer | Upper-stage propulsion   | AeroTech J415W        |   5  | drogue at apogee, main parachute later |
+| Booster   | First-stage propulsion   | Cesaroni 1195J295-16A |   3  | drogue at apogee, main parachute later |
+
+Liftoff mass is 4.309 kg including motors. All results are from OpenRocket **Simulation 6** (Mustafar, 10 m/s wind at 270°). The full design reasoning, results and Earth-vs-Mustafar comparison are in the report.
+
+## folder contents
+the ps1 folder contains the three files of flightdata, rocket.ork and a detailed report required as per rules
+there is also a support folder that holds additional deliverables
+
+
+## How to open and test it
+1. Install **OpenRocket 24.12** (the version the file was saved with).
+2. Install the **Planetary Environment plugin** (`.jar`): put it in the `Plugins` folder inside the OpenRocket folder in `%AppData%` (create `Plugins` if it doesn't exist), then restart OpenRocket. Without the plugin the file still opens, but you'll see a warning that the extension isn't found, and re-running would use Earth gravity.
+3. Open `Spaghettified.ork`. Don't re-save it unless the plugin is installed.
+4. Open **Simulation 6** → Edit → Simulation extensions → *Planetary Environment*. The custom planet is **Mustafar** (g = 6.5 m/s²). To re-add it, load `support/Mustafar.json`.
+5. The launch conditions in Simulation 6 are 75 kPa, 700 K (426.85 °C) and wind 10 m/s at 270°.
+6. Run the simulation and compare with `Spaghettified_FlightData.csv`. For the Earth comparison, change one environment setting at a time (gravity, then pressure and temperature, then wind) and re-run.
+
+
+# PS 2 - Data Analysis:
 
 Analysis of the Voyage-123 solar observation data.
 
+# what we did 
 The folder for problem statement 2 contains a detailed structure of files and programs for data analysis of solar radiation.
 
 The `README_PS2.md` explains how to implement the codebase in the user's local system and run the programs for themselves using jupyter notebook. (in vscode)
@@ -25,7 +51,7 @@ An analysis report has been created that shows all findings, translations and th
 
 
 
-# PS 3:
+# PS 3 - Astronomy :
 
 The folder corresponding to astronomy ps analyses the telescope brightness observations of three stars: STAC-1, STAC-2, and STAC-3 -- to identify possible exoplanets and determine which is the most promising candidate for further habitability studies.
 
