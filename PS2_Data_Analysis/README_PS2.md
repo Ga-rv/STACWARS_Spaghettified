@@ -5,7 +5,7 @@ This folder contains the code, dataset, generated plots, and report for **Proble
 ## Folder structure
 
 ```text
-PS2-Data_Validation/
+PS2_Data_Analysis/
 ├── Mission/
 │   ├── PartA.ipynb
 │   ├── PartB.ipynb
@@ -87,7 +87,7 @@ A `requirements.txt` file is included in this folder. If you use it, check that 
 From a terminal, change into this folder:
 
 ```bash
-cd PS2-Data_Validation/Mission
+cd PS2_Data_Analysis/Mission
 ```
 
 Then start Jupyter:
@@ -102,7 +102,7 @@ Open and run the notebooks in this order:
 2. `PartB.ipynb`
 3. `PartC.ipynb`
 
-You can also open the notebooks in VS Code, but make sure their working directory is `PS2-Data_Validation/Mission`. If you run them from a different directory, update the relative file paths accordingly.
+You can also open the notebooks in VS Code, but make sure their working directory is `PS2_Data_Analysis/Mission`. If you run them from a different directory, update the relative file paths accordingly.
 
 ## Dataset
 
