@@ -1,0 +1,10 @@
+On some digging into STAC's history at IIT Mandi we found that it operates an observatory, a 12 inch telescope and CMOS cameras.
+A veryy interesting software would be to build an automated computer vision pipeline.
+Processing of night sky footage manually can be tedious and to log each and every event in the sky is definitely hectic.
+So instead, an automated script that takes the footage, clips out the exact time at which there is a spark in light or some 
+strange(anomaly) light movement and then logs it into a database.
+This way we get a full database of celestial events happening right here in kamand valley.
+It is very practical and not too difficult (hopefully i don't know ;). Setting up cameras would not be too tough or if the
+club already has cameras set up to monitor night sky, then we get our own training data free of cost.
+
+In a nut shell, an automated data gathering and logging software capturing any celestial body moving through night sky.
